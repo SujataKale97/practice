@@ -2,7 +2,7 @@ node {
       for (i=0; i<10; i++) { 
            stage "Stage #"+i
            print 'Hello, world !'
-           if (i==0)
+           if (i%2==0)
            {
                echo 'Running on Stage #0'
            }
